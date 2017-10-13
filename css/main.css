@@ -188,6 +188,37 @@ a:hover {
   color: #fff;
 }
 
+.carousel-items > div {
+  display: none;
+}
+
+.carousel-btn {
+  color: #fff;
+  border-radius: 100%;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+#project-control:checked ~ .carousel-inner [for="project-control"], #sketches-control:checked ~ .carousel-inner [for="sketches-control"], #problems-control:checked ~ .carousel-inner [for="problems-control"], #evolution-control:checked ~ .carousel-inner [for="evolution-control"] {
+  color: #A0A0A0;
+}
+
+#project-control:checked ~ .carousel-inner #project {
+  display: block;
+}
+
+#sketches-control:checked ~ .carousel-inner #sketches {
+  display: block;
+}
+
+#problems-control:checked ~ .carousel-inner #problems {
+  display: block;
+}
+
+#evolution-control:checked ~ .carousel-inner #evolution {
+  display: block;
+}
+
 @media only screen and (min-width: 35em) {
 
   .banner-content {
