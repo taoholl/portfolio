@@ -1,0 +1,118 @@
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Monda", sans-serif;
+  color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #3e3e3e;
+}
+.bio {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(73, 85, 98, .9));
+}
+
+.btn {
+  background-color: #555;
+  font-weight: normal;
+  color: #fff;
+  display: inline-block;
+  padding: 0.75em;
+  border-radius: 15px;
+  font-size: 0.5rem;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(73, 85, 98, .9));
+}
+
+a {
+  background-color: #555;
+  border-radius: 4px;
+  text-decoration:none;
+  font-size: 0.7901rem;
+}
+
+a:hover {
+  background-color: #000;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 25em) {
+
+
+  .banner {
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    position: relative;
+    max-height: 100rem;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    top: 220px;
+    left: 50px;
+    right:0;
+  }
+
+}
