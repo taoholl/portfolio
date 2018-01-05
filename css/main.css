@@ -9,12 +9,6 @@ html {
   box-sizing: inherit;
 }
 
-.banner {
-    position: relative;
-    max-height: 100%;
-    overflow: hidden;
-}
-
 h1 {
   font-family: Roboto, sans-serif;
   color: #fff;
@@ -33,6 +27,9 @@ h3 {
 
 .logo {
   background-color: #000000;
+  text-align: center;
+  height:200px;
+  width: 100px;
 }
 
 .img-flex {

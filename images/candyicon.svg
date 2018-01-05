@@ -4,15 +4,15 @@
 	 viewBox="0 0 100.8 100.8" style="enable-background:new 0 0 100.8 100.8;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-width:3.0123;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#FFFFFF;stroke-width:2.7046;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:4.0364;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:3.6241;stroke-miterlimit:10;}
 </style>
 <g>
-	<rect x="26.9" y="84.1" class="st0" width="45.7" height="2.5"/>
+	<rect x="19.6" y="97.5" class="st0" width="61.2" height="3.3"/>
 	<g>
-		<circle class="st1" cx="49.8" cy="44.4" r="30.6"/>
-		<polygon class="st2" points="26.9,86.6 49.8,44.4 72.7,86.6 		"/>
-		<line class="st2" x1="49.8" y1="75" x2="49.8" y2="85.3"/>
+		<circle class="st1" cx="50.3" cy="44.3" r="41"/>
+		<polygon class="st2" points="19.6,100.8 50.3,44.3 81,100.8 		"/>
+		<line class="st2" x1="50.3" y1="85.3" x2="50.3" y2="99.1"/>
 	</g>
 </g>
 </svg>
