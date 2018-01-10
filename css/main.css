@@ -25,6 +25,28 @@ h3 {
   color: #268eaa;
 }
 
+.oopsbanner .btn {
+  border-color: #fff;
+  border-style: ridge;
+  border-radius: 16px;
+  border-width: medium;
+  background-color: #000;
+  color: #fff;
+}
+
+.oopsbanner .btn:hover {
+  color: #444663;
+}
+
+.oops {
+  color: #fff;
+  text-align: center;
+}
+
+.oops-title {
+  letter-spacing: 6px;
+}
+
 .logo {
   background-color: #000000;
   text-align: center;
