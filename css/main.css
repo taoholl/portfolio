@@ -25,6 +25,24 @@ h3 {
   color: #268eaa;
 }
 
+h4 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+h6 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.card {
+  background-color: #000000;;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
 .oopsbanner .btn {
   border-color: #fff;
   border-style: ridge;
@@ -34,6 +52,9 @@ h3 {
   color: #fff;
 }
 
+.whitetext {
+  color: #fff;
+}
 .oopsbanner .btn:hover {
   color: #444663;
 }
