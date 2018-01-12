@@ -31,8 +31,54 @@ h3 {
   color: #268eaa;
 }
 
+h4 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+h6 {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.card {
+  background-color: #000000;;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.oopsbanner .btn {
+  border-color: #fff;
+  border-style: ridge;
+  border-radius: 16px;
+  border-width: medium;
+  background-color: #000;
+  color: #fff;
+}
+
+.whitetext {
+  color: #fff;
+}
+.oopsbanner .btn:hover {
+  color: #444663;
+}
+
+.oops {
+  color: #fff;
+  text-align: center;
+}
+
+.oops-title {
+  letter-spacing: 6px;
+}
+
 .logo {
   background-color: #000000;
+  text-align: center;
+  height:200px;
+  width: 100px;
 }
 
 .img-flex {
